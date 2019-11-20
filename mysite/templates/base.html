@@ -17,7 +17,11 @@
           <li><a href="{% url 'login' %}">login</a></li>
         {% endif %}
         </ul>
-    </div>     
+    </div>
+    <nav>
+        <a href="/">Recent Posts</a>
+        <a href="/create/post">Create Post</a>
+      </nav>     
     <div id="container">
       <div id="content">
       {% block content %}
